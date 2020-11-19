@@ -18,7 +18,22 @@ export default function App(props) {
     };
     console.log("new task: " + JSON.stringify(newTask));
     setTasks([...tasks, newTask]);
-    console.log(tasks);
+  }
+
+  function toggleTaskCompleted(id) {
+    let updated;
+    const updatedTasks = tasks.map((task) => {
+      // if this task has the same ID as the edited task
+      if (id === task.id) {
+        // use object spread to make a new object
+        // whose `completed` prop has been inverted
+        updated = { ...task, completed: !task.completed };
+        return updated;
+      }
+      return task;
+    });
+    console.log(updated);
+    setTasks(updatedTasks);
   }
 
   const taskList = tasks.map((task) => (
@@ -27,6 +42,7 @@ export default function App(props) {
       name={task.name}
       completed={task.completed}
       key={task.id}
+      toggleTaskCompleted={toggleTaskCompleted}
     />
   ));
 
