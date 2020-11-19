@@ -29,6 +29,7 @@ You can setup a local React development environment and follow along with the in
 * Search and find the repository for your todo app and select it. Note: you need to set an environment variable "CI" to "false" (without quotes), which addresses an issue discussed here.
 * Click on "Deploy site". Once the deployment is done you should get a URL pointing to your site:
 
+# Outline of changes
 Here are the outline of the tutorial with links to "diffs" showing the changes you need to make to get to that point:
 * Our app's user stories
 * Project starter code ([diff](https://github.com/lubaochuan/todomatic/commit/2a9d1c9171b004188ccb932594b5271004a7b747))
