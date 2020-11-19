@@ -15,6 +15,8 @@ You can setup a local React development environment and follow along with the in
 * Follow the instructions in the tutorial to implement the app in your sandbox.
 * Test out the  the app works as expected in your sandbox.
 
+[demo video](https://sbuniv.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=594beb1f-9418-4f51-85f9-ac78015100a2)
+
 # Step 2 GitHub
 * Create a github repository from your sandbox.
 * click on the github icon on the left bar (you may need to fork the sandbox to own it)
